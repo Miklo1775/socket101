@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 8000;
 app.use(express.static(__dirname + "/public"));
 
 const expressServer = app.listen(PORT);
+console.log("running on port", PORT);
 const io = socketio(expressServer);
 
 io.on("connection", (socket) => {
