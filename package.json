@@ -4,7 +4,7 @@
   "description": "",
   "main": "notes.js",
   "scripts": {
-    "dev": "nodemon chat.js",
+    "dev": "node chat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
